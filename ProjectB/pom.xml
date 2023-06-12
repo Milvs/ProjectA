@@ -10,7 +10,6 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>project-b</artifactId>
-<dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -19,7 +18,6 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
-</dependencyManagement>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
